@@ -131,18 +131,18 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form>
-              <div class="mb-3" action="https://formspree.io/f/xvovekve" method="POST">
+            <form action="https://formspree.io/f/xvovekve" method="POST">
+              <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name">
+                <input name="message" type="text" class="form-control" id="name" aria-describedby="name">
               </div>
-              <div class="mb-3" action="https://formspree.io/f/xvovekve" method="POST">
+              <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com" aria-describedby="email">
+                <input type="email" name="_replyto" class="form-control" id="email" placeholder="name@example.com" aria-describedby="email">
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Message</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <textarea name="message" class="form-control" id="pesan" rows="3"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Send</button>
             </form>
